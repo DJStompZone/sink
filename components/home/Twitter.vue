@@ -1,11 +1,13 @@
 <script setup>
 import { DiscordIcon } from 'vue3-simple-icons'
 import { ArrowRight } from 'lucide-vue-next'
+
+const { discord } = useAppConfig()
 </script>
 
 <template>
   <a
-    href="https://discord.stomp.zone"
+    :href="discord"
     target="_blank"
     title="StompZone Discord"
     class="inline-flex items-center px-3 py-1 mx-auto my-4 space-x-1 text-sm font-medium rounded-lg bg-muted"
