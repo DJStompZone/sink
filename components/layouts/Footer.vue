@@ -12,6 +12,14 @@ const { title, email, discord, github } = useAppConfig()
         class="text-xl font-black leading-none text-gray-900 select-none dark:text-gray-100 logo"
         :title="title"
       >{{ title }}</a>
+      <a
+        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
+        href="https://discord.stomp.zone"
+        target="_blank"
+        title="StompZone"
+      >
+        &copy; {{ new Date().getFullYear() }} DJStompZone | "No Rights Reserved"
+      </a>
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
